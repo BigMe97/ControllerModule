@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controller>
+  <OPC address="opc.tcp://localhost:4840">
+    <item name="temperature"></item>
+    <item name="output"></item>
+  </OPC>
+  <heater ></heater>
+  <pid kp="0,005" ti="100" td="1"></pid>
+  <IO method="Simulator"></IO>
+</controller>
